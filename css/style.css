@@ -1,0 +1,24 @@
+/*Hero Section*/
+.hero-img{
+    max-height: 400px;
+}
+
+p.letra-ancha{
+    font-weight: bold;
+}
+
+.texto-imagen{
+    margin-top: 60px;
+}
+
+.text-morado{
+    color:purple;
+}
+
+/*Media Query's Hero Section*/
+@media (max-with: 768px) {
+    .hero-img{
+        height: 400px;
+        max-height: none;
+    }
+}
