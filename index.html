@@ -96,7 +96,7 @@
 </section>
 
 <!----Testimoniales---->
-<section class="bg-light mt-5">
+<section class="bg-light mt-5 py-5">
     <div class="container">
         <h2 class="text-center mb-5 py-3">Testimonios</h2>
         <div class="row">
@@ -111,6 +111,7 @@
                 </footer>
             </div>
             <div class="col-md-6">
+                <img>
                 <div>
                     ⭐⭐⭐⭐⭐
                 </div>
@@ -126,27 +127,29 @@
 <!----Footer---->
 <section class="position-relative">
     <img class="img-fluid w-100 footer-img" alt="yate en san jose del cabo" src="./img/yate.jpeg">
-    <div class="position-absolute translate-middle-y top-50 texto-imagen">
+    <div class="position-absolute translate-middle-y top-50 texto-imagen container-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <h3 class="text-white">Address</h3>
-                    <p class="texto-gris">Calle Miguel Angel Herrera Libertad, C. Miguel Angel Herrera, Lomas del, 23472 Cabo San Lucas, B.C.S.</p>
+                <div class="col-md-4 ms-2">
+                    <h3 class="">Address</h3>
+                    <address class="texto-gris">Calle Miguel Angel Herrera Libertad,<br> 
+                        C. Miguel Angel Herrera, Lomas del,
+                        23472 Cabo San Lucas, B.C.S.</address>
                     <div>
-                        <i class="fa-brands fa-facebook"></i>
-                        <i class="fa-brands fa-instagram"></i>
+                        <a href="https://facebook.com" aria-label="Facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com" aria-label="Instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3">
-                    <h2 class="">Contactos</h2>
+                <div class="col-md-3 ms-2">
+                    <h2 class="">Contacts</h2>
                     <p class="text-white">+52(624)180-4693</p>
                     <p class="text-white">+1(619)802-8015</p>
                 </div>
-                <div class="col-md-4 mt-3">
+                <div class="col-md-4 ms-2">
                     <h2 class="">Subscribe to our newsletter</h2>
-                    <label for="email">Email address</label><br>
-                    <input class="mt-2 mb-2" type="email" name="" id="" placeholder="Your email address"><br>
-                    <button type="button" class="btn btn-dark">Submit</button>
+                    <label for="newsletter-email" class="text-white">Correo electrónico</label><br>
+                    <input class="form-control mt-2 mb-2" type="email" id="newsletter-email" placeholder="Tu correo electrónico"><br>
+                    <button type="button" class="btn btn-dark w-25">Submit</button>
                 </div>
             </div>
         </div>

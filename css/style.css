@@ -42,7 +42,7 @@ p.letra-ancha{
 
 /*Footer*/
 .texto-gris{
-    color: gray;
+    color: white;
     font-weight: 300px;
 }
 
@@ -56,7 +56,7 @@ p.letra-ancha{
 }
 
 .footer-img{
-    height: 550px;
+    height: 600px;
 }
 
 .espacio{
@@ -66,6 +66,7 @@ p.letra-ancha{
 .espacio-1{
     margin-top: 100px;
 }
+
 
 /*Media Query's Hero section*/
 @media (max-with: 768px) {
