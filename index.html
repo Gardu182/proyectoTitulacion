@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 <body>
+<!----Navegacion---->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">Tu casa</a>
@@ -48,25 +50,112 @@
     </div>
 </nav>
 
+<!----Hero image---->
 <section class="position-relative">
     <img class="img-fluid w-100 hero-img" alt="terreno san jose del cabo" src="./img/beach-maldonado-solanas-sunset-at-the-beach.jpeg">
-    <div class="position-absolute translate-middle-y text-white top-50 start-0 px-5 px-lg-5 texto-imagen">
-        <h5 class="display-5">Exclusividad y Plusvalia</h5>
+    <div class="position-absolute translate-middle-y text-white top-50 px-1 px-lg-5 texto-imagen">
+        <h1 class="display-5">Exclusividad y Plusvalia</h1>
         <p class="lead letra-ancha">Descrubre la mejor opcion para un Terreno en Real del Mar, a solo 25 minutos del Ayuntamiento de San Jose del Cabo.</p>
         <a class="btn btn-primary btn-lg mt-3">Comprar</a>
     </div>
 </section>
 
-<div class="container position-relative">
+<!----Informacion---->
+<section class="text-center py-5 position-relative">
     <h2>Categorias</h2>
-   <img src="./img/terreno_playa.JPG">
-   <div class="position-absolute translate-middle text-white px-4 px-lg-5 start-50 top-50">
-    <p>Aparta un terreno en la primera parte del proyecto!</p>
-    <p>Terreno campestre de 250 metros cuadrado con vista al mar.</p>
-   </div>
-</div>
+    <div class="container">
+       <img class="img-fluid w-100" src="./img/terreno_playa.JPG">
+       <div class="position-absolute translate-middle text-white px-4 px-lg-5 start-50 top-50 text-center">
+           <p class="letra-ancha">Aparta un terreno en la primera parte del proyecto!</p>
+           <p class="letra-ancha">Terreno campestre de 250 metros cuadrado con vista al mar.</p>
+        </div>
+    </div>
+</section>
+
+<section class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h2 class="mt-5">Bienvenidos</h2>
+            <h3>Tu Casa Group Holding LLC</h3>
+            <p class="letra-ancha">Grupo Tu Casa ®️ ofrece el más alto retorno de inversión Real del Mar, Cabo del Este, a solo 25 minutos de San José del Cabo, BCS.</p>
+            <a class="btn btn-lg mt-3 geolocalizacion">Geolocalizacion</a>
+        </div>
+        <div class="col-md-6 position-relative mt-5">
+            <img class="img-fluid w-100 hero-img" alt="terreno playa" src="./img/terreno_playa.JPG">
+            <div class="position-absolute translate-middle-y top-50 start-0 colocacion-terrenos">
+                <p class="letra-ancha text-white fondo-azul px-5">350+</p>
+            </div>
+            <div class="position-absolute translate-middle-y top-50 texto-lotes">
+                <p class="letra-ancha text-white">Lotes a la venta</p>
+            </div>
+            <div class="position-absolute translate-middle-y top-50 texto-lotes-vendidos">
+                <p class="letra-ancha text-white">40 lotes ya vendidos</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!----Testimoniales---->
+<section class="bg-light mt-5">
+    <div class="container">
+        <h2 class="text-center mb-5 py-3">Testimonios</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <img>
+                <div>
+                    ⭐⭐⭐⭐⭐
+                </div>
+                <p>Gran confianza de parte del asesor, se los recomiendo ampliamente, me acompaño durante todo el proceso. Mil gracias!</p>
+                <footer>
+                    <h3>Ricardo Hernandez</h3>
+                </footer>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    ⭐⭐⭐⭐⭐
+                </div>
+                <p>La oportunidad que da Grupo Tu Casa ayudo a formar mi patrimonio  en Real del Mar EST CAPE BEACH. ¡Recomendadísimo!</p>
+                <footer>
+                    <h3>Eduardo Garcia</h3>
+                </footer>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!----Footer---->
+<section class="position-relative">
+    <img class="img-fluid w-100 footer-img" alt="yate en san jose del cabo" src="./img/yate.jpeg">
+    <div class="position-absolute translate-middle-y top-50 texto-imagen">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="text-white">Address</h3>
+                    <p class="texto-gris">Calle Miguel Angel Herrera Libertad, C. Miguel Angel Herrera, Lomas del, 23472 Cabo San Lucas, B.C.S.</p>
+                    <div>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <h2 class="">Contactos</h2>
+                    <p class="text-white">+52(624)180-4693</p>
+                    <p class="text-white">+1(619)802-8015</p>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <h2 class="">Subscribe to our newsletter</h2>
+                    <label for="email">Email address</label><br>
+                    <input class="mt-2 mb-2" type="email" name="" id="" placeholder="Your email address"><br>
+                    <button type="button" class="btn btn-dark">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
 
     <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/all.min.js"></script>
     <script src="./js/index.js"></script>
     
 </body>

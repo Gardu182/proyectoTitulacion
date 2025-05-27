@@ -1,6 +1,7 @@
-/*Hero Section*/
+/*Hero section*/
 .hero-img{
-    max-height: 400px;
+    height: 400px;
+    object-fit: cover;
 }
 
 p.letra-ancha{
@@ -8,14 +9,65 @@ p.letra-ancha{
 }
 
 .texto-imagen{
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
-.text-morado{
-    color:purple;
+.borde{
+    border: 3px solid red;
 }
 
-/*Media Query's Hero Section*/
+.fondo-azul{
+    background-color: #3949D8;
+}
+
+.colocacion-terrenos{
+    margin-right: 50px;
+}
+
+/*Exclusividad*/
+.geolocalizacion{
+    border: 2px solid black;
+}
+
+.texto-lotes{
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.texto-lotes-vendidos{
+    margin-top: 100px;
+    margin-left: 150px;
+    font-size: 25px;
+}
+
+/*Footer*/
+.texto-gris{
+    color: gray;
+    font-weight: 300px;
+}
+
+.fa-facebook{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.fa-instagram{
+    font-size: 30px;
+}
+
+.footer-img{
+    height: 550px;
+}
+
+.espacio{
+    margin-top: -150px;
+}
+
+.espacio-1{
+    margin-top: 100px;
+}
+
+/*Media Query's Hero section*/
 @media (max-with: 768px) {
     .hero-img{
         height: 400px;
