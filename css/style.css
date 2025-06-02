@@ -75,3 +75,9 @@ p.letra-ancha{
         max-height: none;
     }
 }
+
+/*Testimoniales*/
+.testimonial{
+    border-radius: 50%;
+    height: 100px;
+}
