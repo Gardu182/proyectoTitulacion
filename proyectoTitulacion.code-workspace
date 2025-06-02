@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "proyectoTitulacion",
+			"path": "."
+		},
+		{
+			"name": "svgs",
+			"path": "../../../Downloads/fontawesome-free-6.7.2-web/svgs"
+		}
+	],
+	"settings": {}
+}
